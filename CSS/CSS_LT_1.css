@@ -1,21 +1,18 @@
-/* Universal selector (*) */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Basic page look */
 body {
   background-color: #f5f7fb;
-  font-family: Arial, Helvetica, sans-serif; /* font-family */
+  font-family: Arial, Helvetica, sans-serif; 
   padding: 20px;
-  color: #222; /* color */
+  color: #222; 
 }
 
-/* Reusable container */
 .card {
-  background-color: #ffffff; /* background-color */
+  background-color: #ffffff;
   padding: 18px;
   border-radius: 12px;
   max-width: 900px;
@@ -23,9 +20,8 @@ body {
   border: 1px solid #e7e7e7;
 }
 
-/* Element selectors (p, h1/h2) */
 p {
-  font-size: 16px; /* font-size */
+  font-size: 16px; 
   line-height: 1.6;
   margin-top: 10px;
 }
@@ -33,10 +29,9 @@ p {
 h2 {
   margin-top: 14px;
   font-size: 22px;
-  text-align: left; /* text-align */
+  text-align: left; 
 }
 
-/* Class selector (.highlight) */
 .highlight {
   background-color: #eaffea;
   color: #0b5d1e;
@@ -45,10 +40,9 @@ h2 {
   border-radius: 8px;
 }
 
-/* Small footer area */
 .footer p {
   margin-top: 14px;
-  text-align: center; /* text-align */
+  text-align: center; 
   font-size: 14px;
   color: #444;
 }
