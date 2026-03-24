@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-image">
+        <img src="profile.jpg" alt="Profile Photo" />
+      </div>
+
+      <div class="hero-content">
+        <h1>
+          I’m <span>Roman Sheikh Razan</span>
+        </h1>
+        <h2>Computer Science and Engineering (CSE) Student</h2>
+
+        <p>
+          I am a passionate CSE student dedicated to continuous learning and innovation.
+          This portfolio highlights my technical skills, qualifications, projects, and achievements.
+        </p>
+
+        <p>
+          Throughout my academic journey, I have developed a strong foundation in
+          <strong>programming languages, frameworks, and software development tools</strong>.
+          I am eager to apply this knowledge to solve real-world challenges and grow as both
+          a learner and a professional.
+        </p>
+
+        <p>
+          Thank you for visiting my portfolio — I hope you enjoy exploring my work!
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="menu-section">
+    <div class="container card-grid">
+      <a href="#about" class="menu-card" data-section="about">
+        <div class="icon">👤</div>
+        <h3>About</h3>
+      </a>
+
+      <a href="#qualification" class="menu-card" data-section="qualification">
+        <div class="icon">🎓</div>
+        <h3>Qualification</h3>
+      </a>
+
+      <a href="#projects" class="menu-card" data-section="projects">
+        <div class="icon">💼</div>
+        <h3>Projects</h3>
+      </a>
+
+      <a href="#skills" class="menu-card" data-section="skills">
+        <div class="icon">⚙️</div>
+        <h3>Skills</h3>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="content-section reveal">
+    <div class="container section-box">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated Computer Science and Engineering student with a strong interest
+        in web development, software engineering, and problem solving.
+      </p>
+      <p>
+        I enjoy learning new technologies, building user-friendly applications,
+        and improving my skills through practical projects.
+      </p>
+      <div class="hero-buttons">
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+    </div>
+    </div>
+  </section>
+
+  <section id="qualification" class="content-section reveal">
+    <div class="container section-box">
+      <h2>Education</h2>
+      <div class="two-column">
+        <div class="info-card">
+          <h2>University</h2>
+          <h3>BSc in Computer Science and Engineering</h3>
+          <p><strong>University:</strong> American International University-Bangladesh </p>
+          <p><strong>Session:</strong> 2025 - 2026</p>
+          <p><strong>Status:</strong> Running</p>
+        </div>
+
+        <div class="info-card">
+          <h2>Academic Focus</h2>
+          <p><strong>Structures and Algorithms</strong></p>
+          <p><strong>Web Development</strong></p>
+          <p><strong>Software Engineering</strong></p>
+        </div>
+      </div>
+
+      <div class="two-column">
+        <div class="info-card">
+          <h2>College</h2>
+          <h3>Higher Secondary School Certificate (HSC)</h3>
+          <p><strong>College:</strong> Mirpur College, Dhaka </p>
+          <p><strong>Passing Year:</strong> 2021</p>
+        </div>
+
+        <div class="info-card">
+          <h2>School</h2>
+          <h3>Secondary School Certificate (SSC)</h3>
+          <p><strong>School:</strong> Dhanmondi Govt. Boys High School </p>
+          <p><strong>Passing Year:</strong> 2019</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="content-section reveal">
+    <div class="container section-box">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Shop Management System (.NET Framework, C#)</h3>
+          <p>The Shop Management System is a software application that manages the daily operations of a super shop. This system enhances efficiency, reduces manual effort, and ensures better organization.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>A train journey scenario graphics project (C++,OpenGL, Glut)</h3>
+          <p>This project is a visually rich OpenGL/GLUT-based C++ animation that simulates a vibrant countryside landscape featuring a moving train, drifting clouds, and dynamic day-to-night transitions. The scene includes interactive elements like ships and speedboats, enhanced by a castle, mountains, and a lighthouse, creating an immersive and engaging experience. </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Computer Accessories Shop (Java)</h3>
+          <p>This Java-based project is designed to manage the operations of a computer accessories shop efficiently. It enables users to handle tasks such as product inventory management, sales processing, billing, and customer information tracking. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="content-section reveal">
+    <div class="container section-box">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">C</div>
+        <div class="skill-item">C++</div>
+        <div class="skill-item">C-sharp</div>
+        <div class="skill-item">Java</div>
+        <div class="skill-item">Problem Solving</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="content-section reveal">
+    <div class="container section-box">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> rommanrazon@gmail.com</p>
+      <p><strong>Phone:</strong> +8801400337927</p>
+      <p><strong>Location:</strong> Dhaka,Bangladesh</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Roman Sheikh Razan. All rights reserved.</p>
+  </footer>
+
+  <button id="topBtn" title="Go to top">↑</button>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
